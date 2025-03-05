@@ -1,16 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: 'HISTÓRIAS DE VIDA NA FRONTEIRA',
-    author: 'HISTÓRIAS DE VIDA NA FRONTEIRA',
-    description: 'HISTÓRIAS DE VIDA NA FRONTEIRA',
+    title: 'Historias de vida fronteira',
+    author: 'Yulliam Moncada',
+    description: 'Historias de vida na fronteira',
+    image: 'src/assets/img/yo.jpg',
+    siteUrl: 'https://narrativasdefronteira.com.br/',
+    instagramUsername: '@yulliamm',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'HISTÓRIAS DE VIDA NA FRONTEIRA',
-        short_name: 'starter',
+        name: 'Historias de vida na fronteira',
+        short_name: 'Historias de vida na fronteira',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
@@ -18,6 +21,6 @@ module.exports = {
         icon: 'src/assets/img/yo.jpg',
       },
     },
-    'gatsby-plugin-sass',
+    'gatsby-plugin-sass'
   ],
 }
