@@ -1,17 +1,15 @@
-# gatsby-starter-paradigm-shift
+# HISTÓRIAS DE VIDA NA FRONTEIRA
 
-Gatsby.js starter based on the Paradigm Shift site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and themes.
+Histórias de vida na fronteira é uma pesquisa que tem como foco as
+narrativas dos habitantes da cidade de Foz do Iguaçu acerca de suas
+experiências vivenciais num espaço fronteiriço, e a partir destas
+traz um estudo da cultura, da identidade e da memória local. O
+objetivo do estudo foi colher histórias, ou Histórias de Vida, de
+seis dos seus habitantes com ênfase na relação que estes estabelecem
+com a zona de fronteira.
 
-## Preview
-
-https://gatsby-paradigm-shift.surge.sh/
 
 ## Installation
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-
-```
-gatsby new gatsby-starter-paradigm-shift https://github.com/codebushi/gatsby-starter-paradigm-shift
-```
-
-Run `gatsby develop` in the terminal to start the dev site.
+- Run `npm install` in the terminal to install all dependencies.
+- Run `gatsby develop` in the terminal to start the dev site.
