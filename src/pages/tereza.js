@@ -8,9 +8,6 @@ const TerezaPage = () => (
   <div id="wrapper2">
     <section id="banner" class="style2">
       <div class="inner">
-        <span class="image">
-          <img src={tereza} alt="" />
-        </span>
         <header class="major">
           <h1 class="lineTitle">Tereza Donat</h1>
         </header>
@@ -64,7 +61,7 @@ const TerezaPage = () => (
         <section>
           <img
             src={tereza}
-            alt=""
+            alt="tereza"
             data-position="center center"
             class="image"
           />

@@ -22,7 +22,7 @@ const Footer = () => (
                 marginRight: '50px',
               }}
             >
-              <div href="#" className="icon brands"></div>
+              <a href="https://culturafoz.pmfi.pr.gov.br/#/site" target="_blank"  rel="noreferrer" className="icon brands">Sistema municipal de cultura</a>
             </li>
             <li
               style={{
@@ -33,7 +33,7 @@ const Footer = () => (
                 width: '130px',
               }}
             >
-              <a href="#" className="icon brands"></a>
+              <a href="https://www5.pmfi.pr.gov.br/" target="_blank"  rel="noreferrer" className="icon brands">pfmi</a>
             </li>
             <li
               style={{
@@ -44,7 +44,7 @@ const Footer = () => (
                 width: '130px',
               }}
             >
-              <a href="#" className="icon brands"></a>
+              <a href="https://culturafoz.pmfi.pr.gov.br/#/site" target="_blank" rel="noreferrer" className="icon brands">Fundação cultural</a>
             </li>
             <li
               style={{
@@ -55,7 +55,7 @@ const Footer = () => (
                 width: '130px',
               }}
             >
-              <a href="#" className="icon brands"></a>
+              <a href="https://culturafoz.pmfi.pr.gov.br/#/site" target="_blank" rel="noreferrer" className="icon brands">fFundo municipal de incentivo a cultura</a>
             </li>
             <li
               style={{
@@ -66,7 +66,7 @@ const Footer = () => (
                 width: '130px',
               }}
             >
-              <div href="#" className="icon brands"></div>
+              <a href="https://www5.pmfi.pr.gov.br/orgao-143" target="_blank" rel="noreferrer" className="icon brands">Conselho Municipal de Políticas Culturais - CMPC</a>
             </li>
           </ul>
         </li>
@@ -84,7 +84,7 @@ const Footer = () => (
         padding: '0 0 6rem 0',
       }}
     >
-      &copy; Historias de vida 2022. All rights reserved. Design:{' '}
+      &copy; Historias de vida 2025. All rights reserved. Design:{' '}
       <a style={{ color: 'rgba(0, 0, 0, 0.25)' }} href="https://html5up.net">
         HTML5 UP
       </a>

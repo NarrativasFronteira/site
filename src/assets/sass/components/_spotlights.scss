@@ -1,0 +1,122 @@
+///
+/// Forty by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+@use 'sass:color';
+@use "../libs/breakpoints";
+@use "../libs/functions";
+@use "../libs/vendor";
+/* Spotlights */
+
+	.spotlights {
+		border-top: 0 !important;
+
+		& + * {
+			border-top: 0 !important;
+		}
+
+		> section {
+			@include vendor.vendor('display', 'flex');
+			@include vendor.vendor('flex-direction', 'row');
+			background-color: color.adjust(color.adjust(functions.palette(bg-alt), $lightness: 2%), $saturation: -1%);
+
+			> .image {
+				background-position: center center;
+				background-size: cover;
+				border-radius: 0;
+				display: block;
+				position: relative;
+				width: 30%;
+
+				img {
+					border-radius: 0;
+					display: block;
+					width: 100%;
+				}
+
+				&:before {
+					background: color.adjust(functions.palette(bg), $alpha: -0.1);
+					content: '';
+					display: block;
+					height: 100%;
+					left: 0;
+					opacity: 0;
+					position: absolute;
+					top: 0;
+					width: 100%;
+				}
+			}
+
+			> .content {
+				@include vendor.vendor('display', 'flex');
+				@include vendor.vendor('flex-direction', 'column');
+				@include vendor.vendor('justify-content', 'center');
+				@include vendor.vendor('align-items', 'center');
+				padding: 2em 3em;
+				width: 70%;
+
+				> .inner {
+					margin: 0 auto;
+					max-width: 100%;
+					width: _size(inner);
+				}
+			}
+
+			&:nth-child(2n) {
+				@include vendor.vendor('flex-direction', 'row-reverse');
+				background-color: color.adjust(color.adjust(functions.palette(bg-alt), $lightness: 4%), $saturation: -2%);
+
+				> .content {
+					@include vendor.vendor('align-items', 'flex-end');
+				}
+			}
+		}
+
+		@include breakpoints.breakpoint('<=xlarge') {
+			> section {
+				> .image {
+					width: 40%;
+				}
+
+				> .content {
+					width: 60%;
+				}
+			}
+		}
+
+		@include breakpoints.breakpoint('<=large') {
+			> section {
+				> .image {
+					width: 45%;
+				}
+
+				> .content {
+					width: 55%;
+				}
+			}
+		}
+
+		@include breakpoints.breakpoint('<=medium') {
+			> section {
+				display: block;
+
+				> .image {
+					width: 100%;
+				}
+
+				> .content {
+					padding: 4em 3em;
+					width: 100%;
+				}
+			}
+		}
+
+		@include breakpoints.breakpoint('<=small') {
+			> section {
+				> .content {
+					padding: 3em 1.5em;
+				}
+			}
+		}
+	}

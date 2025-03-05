@@ -21,7 +21,7 @@ const YulliamPage = () => (
       <section id="one">
         <div class="inner">
           <header class="major">
-            <h2 style={{ color: '#3d465a' }}>A pesquisadora</h2>
+             <h2 style={{ color: '#3d465a' }}>A pesquisadora</h2>
           </header>
           <p>
             Possui mestrado Interdisciplinar em Estudos Latinoamericanos pela
@@ -59,11 +59,6 @@ const YulliamPage = () => (
             socioculturais da fronteira Foz do Iguaçu-Ciudad del Este, com
             ênfase nas histórias de vida de seus habitantes
           </p>
-          <p style={{ color: '#3d465a', fontWeight: 'bold', marginBottom: '10px' }}>Entre em contato:</p>
-          <p style={{ color: '#3d465a', fontWeight: 'bold', marginBottom: '10px' }}>email:</p>
-          <a href="mailto:yulliamm@gmail.com" style={{ color: '#3d465a'}}>yulliamm@gmail.com</a>
-          <p style={{ color: '#3d465a', fontWeight: 'bold', marginBottom: '10px' }}>Instagram:</p>
-          <a href="https://www.instagram.com/yulliamm/" style={{ color: '#3d465a'}}>@yulliamm</a>
         </div>
       </section>
       <Footer />

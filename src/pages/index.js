@@ -7,6 +7,7 @@ import reinilda from '../assets/img/reinilda3.jpg'
 import tereza from '../assets/img/tereza1.jpg'
 import osmar from '../assets/img/osmar.jpg'
 import yulliam from '../assets/img/yulliam.jpg'
+import revista from '../assets/img/revista.png'
 import otilde from '../assets/img/otilde.jpg'
 import capa from '../assets/img/yo.jpg'
 import smc from '../assets/img/smc.png'
@@ -239,6 +240,29 @@ const IndexPage = () => (
       </div>
     </section>
 
+    <section id="revista">
+      <header>
+        <h2>Revista</h2>
+        <p>
+          Para facilitar o acesso à pesquisa, ela foi diagramada em formato de
+          revista digital e pode ser baixada em arquivo PDF, para que os
+          interessados ​​possam ter as informações consigo sem a necessidade de
+          acesso à internet.
+        </p>
+      </header>
+      <div className="content">
+        <span
+          className="image main"
+          style={{ display: 'flex', justifyContent: 'center' }}
+        >
+          <img src={revista} alt="revista" style={{ width: '40%' }} />
+        </span>
+        <Link to="https://drive.google.com/file/d/1p3xcwpYAHngoAvR-9J6X4oPJ3kY3pNYm/view"  className="button primary large" target="_blanck">
+          Baixar a revista
+        </Link>
+      </div>
+    </section>
+
     <section id="yulliam">
       <header>
         <h2>Pesquisadora</h2>
@@ -359,7 +383,7 @@ const IndexPage = () => (
     </section>
 
     <div className="copyright">
-      &copy; Historias de vida 2022. All rights reserved. Design:{' '}
+      &copy; Historias de vida 2025. All rights reserved. Design:{' '}
       <a href="https://html5up.net">HTML5 UP</a>.
     </div>
   </Layout>

@@ -28,6 +28,9 @@ const FeliciaPage = () => {
             top: '20px',
             left: '100px',
             zIndex: '3',
+            padding: '1rem',
+            display: 'flex',
+            alignItems: 'center'
           }}
         >
           {language}
